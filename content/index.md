@@ -51,6 +51,7 @@ customization safe and easy.
 * [Vundle](https://github.com/gmarik/Vundle.vim) is short for _Vim Bundle_ and is a plugin manager for [Vim](http://www.vim.org/). It works with Pathogen compatible vim plugins.
 
 ### General-purpose dotfile utilities
+* [Briefcase](http://jim.github.io/briefcase/) is a tool to facilitate keeping dotfiles in git, including those with private information (such as .gitconfig).
 * [Dotbot](https://github.com/anishathalye/dotbot) is a lightweight standalone tool to bootstrap dotfiles, making it easy to have a "one click" installation/upgrade process for your dotfiles.
 * [dotfiles.sh](https://github.com/wking/dotfiles-framework) by Trevor King. Dotfiles.sh manages multiple [dotfile repositories](https://github.com/wking/dotfiles-public) so you can keep your public and private configuration separate. It also supports locally patching your dotfiles before symlinking to adapt to the local machine.  Dotfile repositories may be fetched via either Git or (where Git is not available) wget.
 * [fresh](https://github.com/freshshell/fresh) is a tool to source dotfiles from others into your own. It supports shell configuration (aliases, functions, etc.) as well as config files (e.g. `ackrc` and `gitconfig`). Think of it as _Bundler for your dotfiles_.
